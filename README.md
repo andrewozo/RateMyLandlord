@@ -1,0 +1,1 @@
+Application that allows people to search up landlords and see reviews about them from tenants 
