@@ -1,0 +1,71 @@
+#navbar {
+    width: 100%;
+    height: 50px;
+    background-color: grey;
+    color: navajowhite;
+    align-items: center;
+    justify-content: space-evenly;
+  }
+  a {
+    color: navajowhite;
+  }
+  
+  .row {
+    display: flex;
+    flex-direction: row;
+  }
+  
+  .home {
+    text-align: center;
+  }
+  
+  .spongebob {
+    width: 500px;
+  }
+  
+  .student-pic {
+    width: 250px;
+  }
+  
+  .all-students {
+    text-align: center;
+    padding: 8px;
+    border-bottom: solid 1px gray;
+  }
+  
+  .all-campuses {
+    text-align: center;
+    border-bottom: solid 1px gray;
+    padding: 8px;
+  }
+  
+  .campus-pic {
+    width: 250px;
+  }
+  
+  .single-student a {
+    color: black;
+  }
+  
+  .add-form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    flex-grow: 2;
+    margin: 1em;
+    font-size: 25px;
+  }
+  
+  .delete-button {
+    text-align: right;
+  }
+  
+  .update {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    flex-grow: 2;
+    margin: 1em;
+    font-size: 25px;
+  }
+  

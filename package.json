@@ -25,6 +25,7 @@
     "pg": "^8.11.0",
     "react-scripts": "5.0.1",
     "sequelize": "^6.31.1",
+    "volleyball": "^1.5.1",
     "web-vitals": "^2.1.4"
   },
   "devDependencies": {
@@ -47,6 +48,7 @@
     "redux-logger": "^3.0.6",
     "supertest": "^6.3.3",
     "webpack": "^5.84.1",
-    "webpack-cli": "^5.1.1"
+    "webpack-cli": "^5.1.1",
+    "webpack-dev-server": "^4.15.0"
   }
 }
