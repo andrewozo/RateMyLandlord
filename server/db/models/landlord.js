@@ -16,4 +16,4 @@ const Landlord = db.define("landlord", {
   },
 });
 
-module.exports = Landlord
+module.exports = Landlord;

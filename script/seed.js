@@ -20,6 +20,19 @@ const seed = async () => {
       firstname: "Spongebob",
       lastname: "squarepants",
     }),
+    await Landlord.create({
+      landlordName: "Mr Krabs",
+      address: "123 Bikini Bottom",
+      comments: "Mr Krabs is cheap",
+      rating: 2,
+    }),
+    await Landlord.create({
+      landlordName: "Stewie Griffin",
+      address: "123 Main Street",
+      comments:
+        "keeps on telling me what the deuce everytime i come to him with a problem",
+      rating: 3,
+    }),
   ]);
 
   console.log("seeded users successfully");
