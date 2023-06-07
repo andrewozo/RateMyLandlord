@@ -25,6 +25,7 @@ const seed = async () => {
       address: "123 Bikini Bottom",
       comments: "Mr Krabs is cheap",
       rating: 2,
+      postBy: "SpongeBob Squarepants",
     }),
     await Landlord.create({
       landlordName: "Stewie Griffin",
@@ -32,6 +33,7 @@ const seed = async () => {
       comments:
         "keeps on telling me what the deuce everytime i come to him with a problem",
       rating: 3,
+      postBy: "Andrew Ozoria",
     }),
   ]);
 

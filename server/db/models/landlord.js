@@ -14,6 +14,10 @@ const Landlord = db.define("landlord", {
   rating: {
     type: Sequelize.INTEGER,
   },
+  postBy: {
+    type: Sequelize.STRING,
+    defaultValue: "Anonymous",
+  },
 });
 
 module.exports = Landlord;
